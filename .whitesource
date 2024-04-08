@@ -1,10 +1,14 @@
 {
   "scanSettings": {
-    "baseBranches": []
+    "baseBranches": [],
+    "skipScanningStage": {
+        "preStep": ["go"]
+    }
   },
   "checkRunSettings": {
     "vulnerableCheckRunConclusionLevel": "failure",
-    "displayMode": "diff"
+    "displayMode": "diff",
+    "strictMode": "failure"
   },
   "issueSettings": {
     "minSeverityLevel": "LOW"
