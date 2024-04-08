@@ -1,3 +1,8 @@
 {
-  "settingsInheritedFrom": "Arye-H-Org/whitesource-config@main"
+  "settingsInheritedFrom": "Arye-H-Org/whitesource-config@main",
+  "scanSettings": {
+    "skipScanningStage": {
+      "preStep": ["go"]
+    }
+  }
 }
